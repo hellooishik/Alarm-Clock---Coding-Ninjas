@@ -1,0 +1,113 @@
+
+body {
+    background: linear-gradient(#090327, #160126);
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, p, input, span, div, button {
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    height: 100%;
+}
+
+button, input {cursor: pointer}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+}
+
+.accent {
+    color: #E3BB18; 
+}
+
+.clock {
+    margin-bottom: 40px
+}
+
+.clock span {
+    font-size: 12vmax;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+
+.button-section .numbers input {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 108px;
+    margin-right: 10px;
+    
+}
+
+
+button {
+    background: #E3BB18;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.208em;
+    letter-spacing: 2px;
+    
+}
+
+button:hover {
+    background: #E8C53A;
+    transition: 0.2s ease-in-out all;
+}
+
+#stopAlarm {visibility: hidden;
+flex: 100%;
+margin-top: 40px;
+background: #a50b0b;}
+
+#stopAlarm:hover {
+    background: #ab3030;}
+
+#alarmNotice {
+    position: absolute;
+    top: 0;
+    left:0;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#alarmNotice i {font-size: 30px;
+color: #E3BB18;
+margin-right: 10px;}
+
+#alarmNotice span {
+    letter-spacing: 2px;
+    font-size: 1.208em;
+    font-weight: 700;
+}
+
+
+
+
